@@ -10,6 +10,6 @@ public class CaptureTimeStamp {
 	String time = 	new Date().toString().replace(" ", "_").replace(":", "_");
 	System.out.println(time);   
 
-	}
+	}   
 
 }
