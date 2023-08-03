@@ -10,7 +10,7 @@ import org.openqa.selenium.support.PageFactory;
  *
  */
 public class ConatctPage {
-	
+	  
 	WebDriver driver;
 	 public ConatctPage(WebDriver driver) {           
 		 this.driver = driver;
