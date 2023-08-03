@@ -17,6 +17,25 @@ public class HomePage {
 	 @FindBy(linkText = "Products")
 		private WebElement productLink;
 	
+	public WebDriver getDriver() {
+		return driver;
+	}
+
+
+	public WebElement getProductLink() {
+		return productLink;
+	}
+
+
+	public WebElement getAdminImg() {
+		return adminImg;
+	}
+
+
+	public WebElement getSingNOutLnk() {
+		return singNOutLnk;
+	}
+
 	@FindBy(linkText = "Organizations")
 	private WebElement orgLink;
 	
