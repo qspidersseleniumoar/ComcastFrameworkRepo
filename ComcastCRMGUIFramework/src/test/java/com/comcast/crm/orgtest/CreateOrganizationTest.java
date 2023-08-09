@@ -22,7 +22,7 @@ public class CreateOrganizationTest extends BaseClass {
 		UtilityClassObject.getTest().log(Status.INFO, "read data from Excel");
 		
 		// read testScritp data from Excel file
-		String orgName = eLib.getDataFromExcel("org", 1, 2);
+		String orgName = eLib.getDataFromExcel("org", 1, 2)+ jLib.getRandomNumber();
 
 		// step 2 : navigate to Organization module
 		UtilityClassObject.getTest().log(Status.INFO, "navigate to Org Page");
