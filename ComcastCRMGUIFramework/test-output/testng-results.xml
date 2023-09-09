@@ -1,72 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-27T12:43:08Z" name="Default suite" finished-at="2023-07-27T12:43:39Z" duration-ms="31045">
+  <suite started-at="2023-09-08T09:21:29Z" name="Default suite" finished-at="2023-09-08T09:21:39Z" duration-ms="10081">
     <groups>
-      <group name="regressionTest">
-        <method signature="CreateOrganizationTest.createOrgWithIndustriesTest()[pri:0, instance:com.comcast.crm.orgtest.CreateOrganizationTest@5f9be66c]" name="createOrgWithIndustriesTest" class="com.comcast.crm.orgtest.CreateOrganizationTest"/>
-        <method signature="CreateOrganizationTest.createOrgwithPhoneNumberTest()[pri:0, instance:com.comcast.crm.orgtest.CreateOrganizationTest@5f9be66c]" name="createOrgwithPhoneNumberTest" class="com.comcast.crm.orgtest.CreateOrganizationTest"/>
-      </group> <!-- regressionTest -->
-      <group name="smokeTest">
-        <method signature="CreateOrganizationTest.createOrgTest()[pri:0, instance:com.comcast.crm.orgtest.CreateOrganizationTest@5f9be66c]" name="createOrgTest" class="com.comcast.crm.orgtest.CreateOrganizationTest"/>
-      </group> <!-- smokeTest -->
     </groups>
-    <test started-at="2023-07-27T12:43:08Z" name="Default test" finished-at="2023-07-27T12:43:39Z" duration-ms="31045">
-      <class name="com.comcast.crm.orgtest.CreateOrganizationTest">
-        <test-method is-config="true" signature="configBS()[pri:0, instance:com.comcast.crm.orgtest.CreateOrganizationTest@5f9be66c]" started-at="2023-07-27T12:43:08Z" name="configBS" finished-at="2023-07-27T12:43:08Z" duration-ms="27" status="PASS">
+    <test started-at="2023-09-08T09:21:29Z" name="Default test" finished-at="2023-09-08T09:21:39Z" duration-ms="10081">
+      <class name="com.comcast.crm.invoicetest.TC_09">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:com.comcast.crm.invoicetest.TC_09@4b520ea8]" started-at="2023-09-08T09:21:29Z" name="configBS" finished-at="2023-09-08T09:21:29Z" duration-ms="26" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBS -->
-        <test-method is-config="true" signature="configBC()[pri:0, instance:com.comcast.crm.orgtest.CreateOrganizationTest@5f9be66c]" started-at="2023-07-27T12:43:08Z" name="configBC" finished-at="2023-07-27T12:43:09Z" duration-ms="1640" status="PASS">
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.comcast.crm.invoicetest.TC_09@4b520ea8]" started-at="2023-09-08T09:21:29Z" name="configBC" finished-at="2023-09-08T09:21:31Z" duration-ms="1658" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBC -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:com.comcast.crm.orgtest.CreateOrganizationTest@5f9be66c]" started-at="2023-07-27T12:43:09Z" name="configBM" finished-at="2023-07-27T12:43:12Z" duration-ms="2896" status="PASS">
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.comcast.crm.invoicetest.TC_09@4b520ea8]" started-at="2023-09-08T09:21:31Z" name="configBM" finished-at="2023-09-08T09:21:33Z" duration-ms="2274" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBM -->
-        <test-method signature="createOrgTest()[pri:0, instance:com.comcast.crm.orgtest.CreateOrganizationTest@5f9be66c]" started-at="2023-07-27T12:43:12Z" name="createOrgTest" finished-at="2023-07-27T12:43:19Z" duration-ms="6589" status="PASS">
+        <test-method signature="createInvoiceWith_Price_List()[pri:0, instance:com.comcast.crm.invoicetest.TC_09@4b520ea8]" started-at="2023-09-08T09:21:33Z" name="createInvoiceWith_Price_List" finished-at="2023-09-08T09:21:38Z" duration-ms="5116" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createOrgTest -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:com.comcast.crm.orgtest.CreateOrganizationTest@5f9be66c]" started-at="2023-07-27T12:43:19Z" name="configAM" finished-at="2023-07-27T12:43:20Z" duration-ms="1004" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:com.comcast.crm.orgtest.CreateOrganizationTest@5f9be66c]" started-at="2023-07-27T12:43:20Z" name="configBM" finished-at="2023-07-27T12:43:22Z" duration-ms="1889" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBM -->
-        <test-method signature="createOrgWithIndustriesTest()[pri:0, instance:com.comcast.crm.orgtest.CreateOrganizationTest@5f9be66c]" started-at="2023-07-27T12:43:22Z" name="createOrgWithIndustriesTest" finished-at="2023-07-27T12:43:28Z" duration-ms="6383" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createOrgWithIndustriesTest -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:com.comcast.crm.orgtest.CreateOrganizationTest@5f9be66c]" started-at="2023-07-27T12:43:28Z" name="configAM" finished-at="2023-07-27T12:43:29Z" duration-ms="1105" status="PASS">
+        </test-method> <!-- createInvoiceWith_Price_List -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.comcast.crm.invoicetest.TC_09@4b520ea8]" started-at="2023-09-08T09:21:38Z" name="configAM" finished-at="2023-09-08T09:21:39Z" duration-ms="885" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:com.comcast.crm.orgtest.CreateOrganizationTest@5f9be66c]" started-at="2023-07-27T12:43:29Z" name="configBM" finished-at="2023-07-27T12:43:31Z" duration-ms="1942" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBM -->
-        <test-method signature="createOrgwithPhoneNumberTest()[pri:0, instance:com.comcast.crm.orgtest.CreateOrganizationTest@5f9be66c]" started-at="2023-07-27T12:43:31Z" name="createOrgwithPhoneNumberTest" finished-at="2023-07-27T12:43:38Z" duration-ms="6427" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createOrgwithPhoneNumberTest -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:com.comcast.crm.orgtest.CreateOrganizationTest@5f9be66c]" started-at="2023-07-27T12:43:38Z" name="configAM" finished-at="2023-07-27T12:43:38Z" duration-ms="838" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configAC()[pri:0, instance:com.comcast.crm.orgtest.CreateOrganizationTest@5f9be66c]" started-at="2023-07-27T12:43:38Z" name="configAC" finished-at="2023-07-27T12:43:39Z" duration-ms="318" status="PASS">
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.comcast.crm.invoicetest.TC_09@4b520ea8]" started-at="2023-09-08T09:21:39Z" name="configAC" finished-at="2023-09-08T09:21:39Z" duration-ms="132" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAC -->
-        <test-method is-config="true" signature="configAS()[pri:0, instance:com.comcast.crm.orgtest.CreateOrganizationTest@5f9be66c]" started-at="2023-07-27T12:43:39Z" name="configAS" finished-at="2023-07-27T12:43:39Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="configAS()[pri:0, instance:com.comcast.crm.invoicetest.TC_09@4b520ea8]" started-at="2023-09-08T09:21:39Z" name="configAS" finished-at="2023-09-08T09:21:39Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAS -->
-      </class> <!-- com.comcast.crm.orgtest.CreateOrganizationTest -->
+      </class> <!-- com.comcast.crm.invoicetest.TC_09 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
