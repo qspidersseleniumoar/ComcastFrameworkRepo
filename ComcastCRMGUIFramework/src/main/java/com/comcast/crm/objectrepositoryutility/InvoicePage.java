@@ -7,14 +7,14 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-class InvoicePage {
+public class InvoicePage {
 	
 	public InvoicePage(WebDriver driver ) {
 		PageFactory.initElements(driver,this);
 	}
 	
 	@FindBy(xpath = "//img[@alt='Create Invoice...']")
-	private WebDriver createInvoice;
+	private WebElement createInvoice;
 	
 	@FindBy(xpath = "//a[text()='Invoice No']/../../../tr/td[2]")
 	private List<WebElement> selectCheckBox;
@@ -136,7 +136,7 @@ class InvoicePage {
 		return advanceSearchButton;
 	}
 
-	public WebDriver getCreateInvoice() {
+	public WebElement getCreateInvoice() {
 		return createInvoice;
 	}
 
