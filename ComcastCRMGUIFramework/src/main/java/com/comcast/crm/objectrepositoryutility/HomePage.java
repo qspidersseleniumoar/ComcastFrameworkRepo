@@ -80,11 +80,6 @@ public class HomePage {
 	}
 
 
-	public WebElement getInvoicelink() {
-		return invoiceLink;
-	}
-
-
 	public WebElement getOrgLink() {
 		return orgLink;
 	}
