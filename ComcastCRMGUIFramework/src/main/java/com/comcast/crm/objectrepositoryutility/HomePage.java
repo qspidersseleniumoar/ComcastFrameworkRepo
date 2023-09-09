@@ -55,6 +55,35 @@ public class HomePage {
 	@FindBy(linkText = "Sign Out")
 	private WebElement singNOutLnk;
 	
+	@FindBy(linkText = "Invoice")
+	private WebElement invoiceLink;
+	
+	@FindBy(linkText = "Sales Order")
+	private WebElement salesOrderLink;
+	
+	@FindBy(linkText = "Products")
+	private WebElement productsLink;
+	
+
+	public WebElement getInvoiceLink() {
+		return invoiceLink;
+	}
+
+
+	public WebElement getSalesOrderLink() {
+		return salesOrderLink;
+	}
+
+
+	public WebElement getProductsLink() {
+		return productsLink;
+	}
+
+
+	public WebElement getInvoicelink() {
+		return invoiceLink;
+	}
+
 
 	public WebElement getOrgLink() {
 		return orgLink;
